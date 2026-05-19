@@ -12,3 +12,6 @@ public:
     int getCommon(vector<int>& nums1, vector<int>& nums2) {
         int i = 0;
 class Solution {
+        return -1;
+    }
+};
