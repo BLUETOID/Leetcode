@@ -12,7 +12,7 @@ public:
             int area = hight * width;
             maxArea = max(maxArea,area);
 
-            if(hei)
+            if(height[left]<height[right]) left++;
         }
 
         return maxArea;
