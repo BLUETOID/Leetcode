@@ -13,8 +13,9 @@ public:
             maxArea = max(maxArea,area);
 
             if(height[left]<height[right]) left++;
+            else{
+                right--;
+            }
         }
 
         return maxArea;
-    }
-};
