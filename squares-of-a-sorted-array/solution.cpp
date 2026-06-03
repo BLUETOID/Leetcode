@@ -1,4 +1,9 @@
 
+class Solution {
+public:
+    vector<int> sortedSquares(vector<int>& nums) {
+        int n = nums.size();
+        int left = 0;
         vector<int>ans(n);
         int right = n-1;
         int current = n-1;
