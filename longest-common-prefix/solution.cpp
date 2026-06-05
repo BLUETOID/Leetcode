@@ -6,7 +6,7 @@ public:
 
         for(int i=1;i<strs.length();i++){
             int j=0;
-            while(j<min(comm))
+            while(j<min(common_prefix.length(),strs[i]))
         }
     }
 };
