@@ -12,6 +12,6 @@ public:
             }
             common_prefix=common_prefix.substr(0,j);
         }
-        
+
+        return common_prefix;
     }
-};
