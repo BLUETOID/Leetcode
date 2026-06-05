@@ -10,7 +10,8 @@ public:
                 if(common_prefix[j] != strs[i][j]) break;
                 j++;
             }
-            common_prefix=common_prefix
+            common_prefix=common_prefix.substr(0,j);
         }
+        
     }
 };
