@@ -7,7 +7,7 @@ public:
         vector<char>f1(s1.begin(),s1.end());
         sort(f1.begin(),f1.end());
 
-        for(int i=0;i<s2.size()-s1.size();i++){
+        for(int i=0;i<=s2.size()-s1.size();i++){
             vector<char>f2;
             for(int j=i;j<i+s1.size();j++){
                 f2.push_back(s2[j]);
