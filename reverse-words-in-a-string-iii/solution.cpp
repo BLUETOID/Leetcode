@@ -1,4 +1,6 @@
 
+class Solution {
+public:
     string reverseWords(string s) {
         int left = 0;
         int right = 0;
